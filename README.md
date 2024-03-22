@@ -25,7 +25,7 @@ To run this Taxi Fare Price Prediction, you'll need a virtual environment to man
 4. **Create a virtual environment:**
    - PowerShell/CMD:
    - ```bash
-    python -m venv myenv
+       python -m venv myenv
       ```
    (Replace `myenv` with your desired name.)
 5. **Activate the virtual environment:**
