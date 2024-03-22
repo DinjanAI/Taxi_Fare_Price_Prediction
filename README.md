@@ -24,17 +24,21 @@ To run this Taxi Fare Price Prediction, you'll need a virtual environment to man
    ```
 4. **Create a virtual environment:**
    - PowerShell/CMD:
-   - ```bash python -m venv myenv ```
-      (Replace `myenv` with your desired name.)
+   - ```bash
+    python -m venv myenv
+      ```
+   (Replace `myenv` with your desired name.)
 5. **Activate the virtual environment:**
    - PowerShell/CMD:
-   - ```bash`.\myenv\Scripts\activate
+   - ```bash
+     .\myenv\Scripts\activate
      ```
 
 6. **Install dependencies:**
    ```bash
     pip install -r requirements.txt
-   ``` (Download `requirements.txt` if not present.)
+   ```
+   (Download `requirements.txt` if not present.)
 
 **Troubleshooting:**
 
