@@ -18,14 +18,23 @@ To run this Taxi Fare Price Prediction, you'll need a virtual environment to man
 **Steps:**
 
 1. **Open a terminal/command prompt.**
-2. **Navigate to your project directory:** Use `cd <path_to_project_directory>`.
-3. **Create a virtual environment:**
-   - PowerShell: `python -m venv myenv`
-   - CMD: `python -m venv myenv` (Replace `myenv` with your desired name.)
-4. **Activate the virtual environment:**
-   - PowerShell: `.\myenv\Scripts\activate`
-   - CMD: `myenv\Scripts\activate`
-5. **Install dependencies:** `pip install -r requirements.txt` (Download `requirements.txt` if not present.)
+2. **Navigate to your project directory:** Use
+   ```bash
+   cd <path_to_project_directory>
+   ```
+4. **Create a virtual environment:**
+   - PowerShell/CMD:
+   - ```bash python -m venv myenv ```
+      (Replace `myenv` with your desired name.)
+5. **Activate the virtual environment:**
+   - PowerShell/CMD:
+   - ```bash`.\myenv\Scripts\activate
+     ```
+
+6. **Install dependencies:**
+   ```bash
+    pip install -r requirements.txt
+   ``` (Download `requirements.txt` if not present.)
 
 **Troubleshooting:**
 
@@ -35,6 +44,9 @@ To run this Taxi Fare Price Prediction, you'll need a virtual environment to man
 **Running the Chatbot:**
 
 1. **Within the activated virtual environment:**
-2. **Run the command:** `python nyc.py`
+2. **Run the command:**
+   ```bash
+    python nyc.py
+   ```
 
 
